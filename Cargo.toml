@@ -1,0 +1,27 @@
+[package]
+name = "hello-rust"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.72"
+async-trait = "0.1.72"
+chrono = "0.4.26"
+ed25519-dalek = "1.0.1"
+ferris-says = "0.2"
+lazy_static = "1.4.0"
+oid4vp = "0.1.0"
+rand = "0.8.5"
+serde = "1.0.175"
+serde_json = "1.0.103"
+serde_with = "3.1.0"
+serde_urlencoded = "0.7"
+siopv2 = "0.1.0"
+tokio = "1.29.1"
+try_as = "0.1.0"
+wiremock = "0.5.19"
+derivative = "2.2.0"
+did_url = "0.1.0"
+did-key = "0.2.1"
